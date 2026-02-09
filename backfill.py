@@ -4,9 +4,9 @@ import random
 from datetime import datetime, timedelta
 
 # ===== CONFIG =====
-DAYS_BACK = 14          # Berapa hari ke belakang ingin diisi
-MIN_COMMITS = 1         # Minimal commit per hari
-MAX_COMMITS = 3         # Maksimal commit per hari
+DAYS_BACK = 345          # Berapa hari ke belakang ingin diisi
+MIN_COMMITS = 5         # Minimal commit per hari
+MAX_COMMITS = 25         # Maksimal commit per hari
 FILE_NAME = "activity_log.txt"
 # ==================
 
